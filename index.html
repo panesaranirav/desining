@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      main {
+        background-image: url("img/hero4.png");
+        background-size: cover;
+        background-position: top 25% right 0;
+      }
+      @media (max-width: 424px) {
+        main {
+          background-position: 600px 0;
+        }
+      }
+      .section5 {
+        background-image: url("img/banner/b2.jpg");
+        height: 250px;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+        background-size: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="home">
+      <div class="logo">
+        <img src="img/logo.png" alt="" />
+      </div>
+      <nav>
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <div class="container" onclick="mydunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+        </label>
+
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Shope</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="form.html">contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!----------------------------- header is closed -------------------------->
+    <main>
+      <div class="main_text">
+        <h5>trade-in-offer</h5>
+        <h1>super value deals</h1>
+        <h2>on all product</h2>
+        <p>show more & 70% off</p>
+        <button>shope now</button>
+      </div>
+    </main>
+    <!-------------------------- main is closed ------------------------------->
+    <section class="section1">
+      <div class="sec1_img">
+        <img src="img/features/f1.png" alt="" />
+        <button id="b1">free shoping</button>
+      </div>
+      <div class="sec1_img">
+        <img src="img/features/f2.png" alt="" />
+        <button id="b2">online order</button>
+      </div>
+      <div class="sec1_img">
+        <img src="img/features/f3.png" alt="" />
+        <button id="b3">save money</button>
+      </div>
+      <div class="sec1_img">
+        <img src="img/features/f4.png" alt="" />
+        <button id="b4">promoriess</button>
+      </div>
+      <div class="sec1_img">
+        <img src="img/features/f5.png" alt="" />
+        <button id="b5">happy sell</button>
+      </div>
+      <div class="sec1_img">
+        <img src="img/features/f6.png" alt="" />
+        <button id="b6">f24/7 support</button>
+      </div>
+    </section>
+    <!----------------------- section 2 is closed --------------------->
+    <section class="section2">
+      <div class="sec2_text">
+        <h1>featured product</h1>
+        <p>summer collection new mordern design</p>
+      </div>
+    </section>
+    <!----------------------- section 2 is closed ----------------------->
+    <section class="section3">
+      <div class="sec3_igm">
+        <img src="img/products/f1.jpg" alt="" />
+        <p>adidas</p>
+        <h5>cartoon astroanut t-shirt</h5>
+        <span id="s3">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </span>
+        <h3>$73</h3>
+        <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+      <div class="sec3_igm">
+        <img src="img/products/f2.jpg" alt="" />
+        <p>adidas</p>
+        <h5>cartoon astroanut t-shirt</h5>
+        <span>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </span>
+        <h3>$73</h3>
+        <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+      <div class="sec3_igm">
+        <img src="img/products/f3.jpg" alt="" />
+        <p>adidas</p>
+        <h5>cartoon astroanut t-shirt</h5>
+        <span>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </span>
+        <h3>$73</h3>
+        <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+      <div class="sec3_igm">
+        <img src="img/products/f4.jpg" alt="" />
+        <p>adidas</p>
+        <h5>cartoon astroanut t-shirt</h5>
+        <span>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </span>
+        <h3>$73</h3>
+        <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+    </section>
+    <!--------------------- section 3 is closed -------------------->
+    <section class="section3">
+      <div class="sec3_igm">
+        <img src="img/products/f5.jpg" alt="" />
+        <p>adidas</p>
+        <h5>cartoon astroanut t-shirt</h5>
+        <span id="s3">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </span>
+        <h3>$73</h3>
+        <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+      <div class="sec3_igm">
+        <img src="img/products/f6.jpg" alt="" />
+        <p>adidas</p>
+        <h5>cartoon astroanut t-shirt</h5>
+        <span>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </span>
+        <h3>$73</h3>
+        <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+      <div class="sec3_igm">
+        <img src="img/products/f7.jpg" alt="" />
+        <p>adidas</p>
+        <h5>cartoon astroanut t-shirt</h5>
+        <span>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </span>
+        <h3>$73</h3>
+        <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+      <div class="sec3_igm">
+        <img src="img/products/f8.jpg" alt="" />
+        <p>adidas</p>
+        <h5>cartoon astroanut t-shirt</h5>
+        <span>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </span>
+        <h3>$73</h3>
+        <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+    </section>
+    <!---------------------------- section 4 is closed ------------------------------>
+    <section class="section5">
+      <div class="sec5_text">
+        <h4>repair service</h4>
+        <p>up to <span>70% off</span>-all t-shirt & accessories</p>
+        <button>explore more</button>
+      </div>
+    </section>
+    <!--------------------------- section 5 is closed ------------------------------->
+    <section class="section7">
+      <div class="sec7_text">
+        <h1>new arrival</h1>
+        <p>summer collection new morden design</p>
+      </div>
+    </section>
+    <!----------------------- section 7 is closed ------------------>
+    <section class="section3">
+      <div class="sec3_igm">
+        <img src="img/products/n1.jpg" alt="" />
+        <p>adidas</p>
+        <h5>cartoon astroanut t-shirt</h5>
+        <span id="s3">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </span>
+        <h3>$73</h3>
+        <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+      <div class="sec3_igm">
+        <img src="img/products/n2.jpg" alt="" />
+        <p>adidas</p>
+        <h5>cartoon astroanut t-shirt</h5>
+        <span>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </span>
+        <h3>$73</h3>
+        <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+      <div class="sec3_igm">
+        <img src="img/products/n3.jpg" alt="" />
+        <p>adidas</p>
+        <h5>cartoon astroanut t-shirt</h5>
+        <span>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </span>
+        <h3>$73</h3>
+        <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+      <div class="sec3_igm">
+        <img src="img/products/n4.jpg" alt="" />
+        <p>adidas</p>
+        <h5>cartoon astroanut t-shirt</h5>
+        <span>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </span>
+        <h3>$73</h3>
+        <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+    </section>
+    <!----------------------- sectoin 6 is clsoed ---------------------->
+
+    <section class="section3">
+      <div class="sec3_igm">
+        <img src="img/products/n5.jpg" alt="" />
+        <p>adidas</p>
+        <h5>cartoon astroanut t-shirt</h5>
+        <span id="s3">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </span>
+        <h3>$73</h3>
+        <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+      <div class="sec3_igm">
+        <img src="img/products/n6.jpg" alt="" />
+        <p>adidas</p>
+        <h5>cartoon astroanut t-shirt</h5>
+        <span>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </span>
+        <h3>$73</h3>
+        <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+      <div class="sec3_igm">
+        <img src="img/products/n7.jpg" alt="" />
+        <p>adidas</p>
+        <h5>cartoon astroanut t-shirt</h5>
+        <span>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </span>
+        <h3>$73</h3>
+        <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+      <div class="sec3_igm">
+        <img src="img/products/n8.jpg" alt="" />
+        <p>adidas</p>
+        <h5>cartoon astroanut t-shirt</h5>
+        <span>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </span>
+        <h3>$73</h3>
+        <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+    </section>
+    <!-------------------- section 8 is closed ------------>
+    <section class="section9">
+      <div class="sec9_text">
+        <img src="img/banner/b17.jpg" alt="" />
+        <div class="sec9_1">
+          <h3>crayz deal</h3>
+          <h1>buy 1 get 1 free</h1>
+          <h4>The best classic drees is on sale at cora</h4>
+          <button>leran more</button>
+        </div>
+      </div>
+      <div class="sec9_text">
+        <img src="img/banner/b10.jpg" alt="" />
+        <div class="sec9_2">
+          <h3>spring/summer</h3>
+          <h1>upcoming season</h1>
+          <h4>The best classic drees is on sale at cora</h4>
+          <button>collection</button>
+        </div>
+      </div>
+    </section>
+    <!---------------------- section 9 is closed ---------------------->
+    <section class="section10">
+      <div class="sec10_text">
+        <img src="img/banner/b7.jpg" alt="" />
+        <div class="sec_10_1">
+          <h1>Season Sale</h1>
+          <h2>winter collection -50% off</h2>
+        </div>
+      </div>
+      <div class="sec10_text">
+        <img src="img/banner/b4.jpg" alt="" />
+        <div class="sec_10_2">
+          <h1>New Footwear Collection</h1>
+          <h2>spring/summer 2022</h2>
+        </div>
+      </div>
+      <div class="sec10_text">
+        <img src="img/banner/b18.jpg" alt="" />
+        <div class="sec_10_3">
+          <h1>T-shirts</h1>
+          <h2>new t-shirts collection</h2>
+        </div>
+      </div>
+    </section>
+    <!--------------------- section 10 is closed --------------------->
+    <section class="section11">
+      <div class="sec11_text">
+        <h1>Sign Up For Newsletter</h1>
+        <h4>
+          get e-mail updates about our latest shope and
+          <span>special offer</span>
+        </h4>
+      </div>
+      <div class="sec11_form">
+        <input type="email" name="" placeholder="E- mail" /><button>
+          Sign Up
+        </button>
+      </div>
+    </section>
+    <!--------------------- section 11 is closed ----------------->
+    <footer>
+      <div class="foo_1">
+        <img src="img/logo.png" alt="" />
+        <h3>Contact</h3>
+        <p>Address:506 bulevar new york</p>
+        <p>Phone:+87 202536987</p>
+        <p>Hours:10:00-18:00. mon-sat</p>
+        <h4>Follow us</h4>
+        <span>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-youtube"></i>
+        </span>
+      </div>
+      <div class="foo_2">
+        <h4>About</h4>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Delivary Informaton</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Teram & Condition</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="foo_3">
+        <h4>My Acount</h4>
+        <ul>
+          <li><a href="#">Sign In</a></li>
+          <li><a href="#">View Cart</a></li>
+          <li><a href="#">My Wishist</a></li>
+          <li><a href="#">Tarck My Order</a></li>
+          <li><a href="#">Help</a></li>
+        </ul>
+      </div>
+      <div class="foo_4">
+        <h4>Install All</h4>
+        <img src="img/pay/app.jpg" alt="" />
+        <img src="img/pay/play.jpg" alt="" />
+        <img src="img/pay/pay.png" alt="" />
+        <p>&#169; Nirav Patel</p>
+      </div>
+    </footer>
+    <script>
+      function mydunction(z) {
+        z.classList.toggle("a");
+      }
+    </script>
+  </body>
+</html>
